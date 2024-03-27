@@ -1,2 +1,2 @@
 # insagram-post-generator
-create instagram post tempate easily
+create instagram post template easily
