@@ -198,3 +198,30 @@ body {
     cursor: pointer;
     margin-top: 20px;
 }
+
+@media screen and (max-width:770px) {
+    body{
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+    .main-frame{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-frame2{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .main-frame .frame {
+        width: 250px;
+        height: 390px;
+    }
+
+    .main-frame2 .title{
+        font-size: 30px;
+    }
+}
